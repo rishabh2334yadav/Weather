@@ -1,0 +1,44 @@
+.about-container {
+    padding: 3em;
+    background: linear-gradient(135deg, #243B55, #141E30);
+    min-height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .about-title {
+    font-size: 3.5vw;
+    margin-bottom: 1em;
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .about-text {
+    font-size: 1.5vw;
+    max-width: 80%;
+    line-height: 1.8;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 2em;
+    border-radius: 1em;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  /* 👇 Hover effect */
+  .about-text:hover {
+    color: #00FFFF; /* or any color you like */
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .about-title:hover {
+    transform: scale(1.05);
+    text-shadow: 0 0 15px #00ffff, 0 0 25px #0072ff;
+  }
+  
